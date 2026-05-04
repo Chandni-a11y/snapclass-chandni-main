@@ -1,5 +1,5 @@
 import streamlit as st
-from src.ui.base_layout import style_base_layout,style_background_home,style_background_dashboard
+from src.ui.base_layout import style_base_layout,style_background_home
 from src.components.footer import footer_home
 from src.components.header import header_home
 
@@ -8,7 +8,6 @@ def home_screen():
 
     header_home()
     style_background_home()
-    # style_background_dashboard()
     style_base_layout()
 
     col1,col2 = st.columns(2)

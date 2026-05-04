@@ -1,4 +1,6 @@
 # Utilitites
+
+streamlit
 numpy
 pandas
 
@@ -14,4 +16,5 @@ bcrypt     # hashing
 segno      # QR code
 pillow     # image preprocessing 
 
-streamlit
+librosa  # file loading (specially voice) , segmenting 
+resemblyzer  # embedding voice , then compare
